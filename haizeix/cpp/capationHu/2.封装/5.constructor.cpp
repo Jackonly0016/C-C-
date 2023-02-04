@@ -76,3 +76,28 @@ int main()
     return 0;
 }
 
+/*
+0x5585fe296160 default constructor
+12
+pre position
+0x7ffce1a08040 default constructor
+0x7ffce1a08060 an int constructor
+0x7ffce1a08080 copy constructor
+a = 0x7ffce1a08040
+b = 0x7ffce1a08060
+c = 0x7ffce1a08080
+aa = 0x5585fe296160
+bb = 0x5585fe296180
+cc = 0x5585fe2961a0
+8 8
+0x7ffce1a080a0 an int constructor
+0x7ffce1a080a0 destructor
+6 6
+next position
+0x7ffce1a08080 destructor
+0x7ffce1a08060 destructor
+0x7ffce1a08040 destructor
+0x5585fe2961a0 destructor
+0x5585fe296180 destructor
+0x5585fe296160 destructor
+*/
